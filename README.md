@@ -1,2 +1,2 @@
 # alura-vim
-Alura Vim Course's
+Original course: https://cursos.alura.com.br/course/vim
