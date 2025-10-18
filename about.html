@@ -4,72 +4,62 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/estilos.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/components/menuHeader.js"></script>
 	<!-- JUST FOR DEV PURPOSE - node livereload -->
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>')</script>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="ourprojects.html">Projetos</a>
-            <a href="testimonies.html">Depoimentos</a>
-            <a href="about.html">Sobre</a>
-            <a href="index.html">Home</a>
-        </nav>
-    </header>
+    <menu-header></menu-header>
     <section id="sobre-nos" class="container">
-		<h2>Sobre Nós</h2>
+		<h2>About Us</h2>
 		<div class="row">
 			<img class="img-responsive col-sm-6" src="assets/img/empresa.jpg" alt="">
-
 			<div class="panel-group col-sm-6" id="paineis-sobre">
 				<div class="panel panel-default">
 					<div class="panel-heading" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
-						<h3 class="panel-title">Desde 1935</h3>
+						<h3 class="panel-title">Since 1935</h3>
 					</div>
 
 					<div class="collapse in" id="primeiro-paragrafo">
 						<div class="panel-body">
-							Desde 1935 trazendo casas, mansões e prédios lindos para o mundo
+                            Since 1935 bringing home, apartments and so on to the world.
 						</div>
 					</div>
 				</div>
 
 				<div class="panel panel-default">
 					<div class="panel-heading" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
-						<h3 class="panel-title">Alegria em colaborar para um mundo mais bonito</h3>
+						<h3 class="panel-title">Be happy to contribute to a beatyfull</h3>
 					</div>
 
 					<div id="segundo-paragrafo" class="collapse">
 						<div class="panel-body">
-							Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.
+                            Bring joy for people who have money to spend on.
 						</div>
 					</div>
 				</div>
 
 				<div class="panel panel-default">
 					<div class="panel-heading" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
-						<h3 class="panel-title">Mais de 300 prêmios em design e em conforto.</h3>
+						<h3 class="panel-title">More tah <strong>300</strong> awards in design and confort.</h3>
 					</div>
 
 					<div id="terceiro-paragrafo" class="collapse">
 						<div class="panel-body">
-							Mais de 5 milhões de clientes satisfeitos em todo o mundo.
+							More than <strong>5 millions</strong> of clients satisfied around the world.
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</section>
-
 	<div class="jumbotron">
 		<div class="container">
-			<h3>Mais de 300 prêmios em design e em conforto.</h3>
-			<p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
+            <h3>More tah <strong>300</strong> awards in design and confort.</h3>
+            <p>More than <strong>5 millions</strong> of clients satisfied around the world.</p>
 		</div>
 	</div>
-
     <contact-footer></contact-footer>
     <script src="assets/js/components/contactFooter.js"></script>
 </body>
