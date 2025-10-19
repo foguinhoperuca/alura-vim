@@ -1,4 +1,4 @@
-#paineis-sobre {
+#pannels-about {
 	margin-top: 20px;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 @media(min-width: 768px) {
-	#paineis-sobre {
+	#pannels-about {
 		margin-top: 0;	
 	}
 }

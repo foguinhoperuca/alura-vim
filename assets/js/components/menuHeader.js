@@ -26,9 +26,9 @@ class MenuHeader extends HTMLElement {
               </style>
               <header>
                   <nav>
-                      <a href="ourprojects.html">Projetos</a>
-                      <a href="testimonies.html">Depoimentos</a>
-                      <a href="about.html">Sobre</a>
+                      <a href="ourprojects.html">Projects</a>
+                      <a href="testimonies.html">Testimonies</a>
+                      <a href="about.html">About</a>
                       <a href="index.html">Home</a>
                       <a href="https://github.com/foguinhoperuca/alura-vim">
                         <svg height="16" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="16" data-view-component="true" class="octicon octicon-mark-github v-align-middle">

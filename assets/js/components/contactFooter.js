@@ -28,20 +28,20 @@ class ContactFooter extends HTMLElement {
               <footer>
                 <address>
                     <h3>
-                        Tire o seu projeto do papel! <br/>
-                        <small>Fale conosco para um orçamento.</small>
+                        Bring life to your project! <br/>
+                        <small>Talk to us.</small>
                     </h3>
-                    <strong>TopCasaFina Arquitetura</strong><br>
-                    <strong>E-mail:</strong> contato.topcasafina@alura.com.br <br />
-                    <strong>Telefone:</strong> 15-99177-5566<br />
+                    <strong>TopCasaFina Building Design</strong><br>
+                    <strong>E-mail:</strong> contact.topcasafina@vim.alura.com.br <br />
+                    <strong>Phone:</strong> 15-99177-5566<br />
                     <strong>Pager:</strong> 8468465219<br />
                     <strong>Fax:</strong> +44-12-45678912<br />
                 </address>
                 <div>
-                    <h3>Parceiros e Fornecedores</h3>
-                    TopMassa Fina Construções<br />
-                    Pedro Cimentos <br />
-                    Simão Móveis Planejados<br />
+                    <h3>Suppliers && Partners</h3>
+                    TopMassa Fina Constructions<br />
+                    Peter's Cements <br />
+                    Simão Planed Furnitures<br />
                 </div>
               </footer>
         `;
